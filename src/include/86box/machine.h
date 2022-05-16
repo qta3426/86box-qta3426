@@ -622,6 +622,8 @@ extern int	machine_at_i430vx_init(const machine_t *);
 
 extern int	machine_at_nupro592_init(const machine_t *);
 extern int	machine_at_tx97_init(const machine_t *);
+extern int  machine_at_56a5_init(const machine_t *);
+
 #if defined(DEV_BRANCH) && defined(USE_AN430TX)
 extern int	machine_at_an430tx_init(const machine_t *);
 #endif
