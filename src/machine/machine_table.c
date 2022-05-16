@@ -908,6 +908,8 @@ const machine_t machines[] = {
     /* Has a Winbond W83977TF Super I/O chip with on-chip KBC with AMIKey-2 KBC
        firmware. */
     { "[i440BX] Gigabyte GA-686BX",                    "686bx",            MACHINE_TYPE_SLOT1,      MACHINE_CHIPSET_INTEL_440BX,         machine_at_686bx_init,            0, 0, MACHINE_AVAILABLE, 0 , CPU_PKG_SLOT1,                     CPU_BLOCK_NONE,                       66666667, 100000000, 1800, 3500, 1.5, 8.0, MACHINE_PS2_AGP, MACHINE_IDE_DUAL, 8192,1048576, 8192, 255, NULL, NULL },
+    /* same HP Vectra VEi 8 */
+    { "[i440BX] HP Brio BA600",                        "ba600",            MACHINE_TYPE_SLOT1,      MACHINE_CHIPSET_INTEL_440BX,         machine_at_ba600_init,            0, 0, MACHINE_AVAILABLE, 0 , CPU_PKG_SLOT1,                     CPU_BLOCK_NONE,                       66666667, 100000000, 1800, 3500, 1.5, 8.0, MACHINE_PS2_AGP, MACHINE_IDE_DUAL, 8192,1048576, 8192, 255, NULL, NULL },
     /* Has a SM(S)C FDC37M60x Super I/O chip with on-chip KBC with most likely
        AMIKey-2 KBC firmware. */
     { "[i440BX] HP Vectra VEi 8",                      "vei8",             MACHINE_TYPE_SLOT1,      MACHINE_CHIPSET_INTEL_440BX,         machine_at_vei8_init,             0, 0, MACHINE_AVAILABLE, 0 , CPU_PKG_SLOT1,                     CPU_BLOCK_NONE,                       66666667, 100000000, 1800, 3500, 1.5, 8.0, MACHINE_PS2_AGP, MACHINE_IDE_DUAL, 8192,1048576, 8192, 255, NULL, NULL },
