@@ -46,12 +46,4 @@
 ---------
 86Box는 [GNU Gerneral Public License, version 2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html) 이상으로 배포 되었습니다. 자세한 내용은 저장소 루트의 'COPYING' 파일을 참조하세요.
 
-에뮬레이터는 선택적으로 [munt](https://github.com/munt/munt), [FluidSynth](https://www.fluidsynth.org/), [Ghostscript](https://www .ghostscript.com/) 및 [Discord Game SDK](https://discord.com/developers/docs/game-sdk/sdk-starter-guide)는 해당 라이선스에 따라 배포됩니다.
-
-Donations
----------
-We do not charge you for the emulator but donations are still welcome:
-https://paypal.me/86Box.
-
-You can also support the project on Patreon:
-https://www.patreon.com/86box.
+에뮬레이터는 선택적으로 [munt](https://github.com/munt/munt), [FluidSynth](https://www.fluidsynth.org/), [Ghostscript](https://www.ghostscript.com/) 및 [Discord Game SDK](https://discord.com/developers/docs/game-sdk/sdk-starter-guide)는 해당 라이선스에 따라 배포됩니다.
