@@ -1,4 +1,4 @@
-86Box [![Build Status](http://ci.86box.net/job/86Box/badge/icon)](http://ci.86box.net/job/86Box)
+86Box
 =====
 **86Box**는 1981년부터 PCI 버스를 기반으로 하는 최근의 시스템까지 IBM PC와 호환 가능하도록 설계된 오래된 OS 및 소프트웨어를 실행하는 저수준 x86 에뮬레이터 입니다.
 
@@ -21,26 +21,15 @@
 
 성능은 호스트 및 게스트 구성에 따라 다를 수 있습니다. 대부분의 에뮬레이션 로직은 단일 스레드에서 실행되므로 일반적으로 더 나은 IPC(클럭당 명령 수)인 CPU를 사용중인 시스템은 더 높은 클럭 속도를 에뮬레이트 할 수 있습니다.
 
-또한 여러 가상 머신을 보다 쉽게 관리할 수 있도록 86Box와 함께 관리자 소프트웨어(**Windows 전용**)를 사용하는 것이 좋습니다.
-* [WinBox for 86Box](https://github.com/86Box/WinBox-for-86Box) by Laci bá'
-  * 향상된 새로운 사용자 경험을 제공하는 관리 프로그램, 에뮬레이터 바이너리의 자동 업데이트 등.
-  * 개발이 일시 중단되었지만 저장소가 유지중이기 때문에 아직까지 사용 가능합니다.
-* [86Box Manager](https://github.com/86Box/86BoxManager) by [daviunic](https://github.com/daviunic) (Overdoze)
-  * 간단한 인터페이스를 가진 기본적인 86Box 관리 프로그램.
+사전 설치 환경
+--
+이 프로그램이 처음이거나 시스템 구성이 어려운 분들을 위한 MS-DOS와 Windows 95가 사전 설치된 환경을 제공합니다. 해당 사전 설치 환경은 다른 머신을 이용할 수 없지만 해당 메인보드에 사용 가능한 주변 장치들은 마음대로 변경 및 사용이 가능합니다. 이 머신으로 다른 운영 체제를 설치하고 싶으면 그렇게 해도 됩니다. 본인이 사용하는 CPU에 따라 퍼포먼스 하락이 있을 수도 있지만 랩탑이 아닌 데스크탑이라면 충분히 돌아갈 것입니다.
 
-그러나 '--vmpath'/'-P' 명령줄 옵션과 함께 86Box를 단독으로 사용할 수도 있습니다.
+OS와 구동에 필요한 프로그램을 제외한 게임 또는 기타 소프트웨어는 설치되어 있지 않습니다. 사용에 참고하시기 바랍니다.
 
 시작하기
 ---------------
 에뮬레이터의 기능 및 사용자 인터페이스에 대한 개요는 [86Box 문서](https://86box.readthedocs.io/en/latest/index.html)를 참조하세요.
-
-커뮤니티
----------
-86Box 개발 및 레트로 컴퓨팅과 관련된 모든 것을 논의하기 위한 IRC 채널과 디스코드 서버를 운영 중입니다. 여러분의 의견을 기다립니다.
-
-[![IRC 채널 방문](https://kiwiirc.com/buttons/irc.ringoflightning.net/86Box.png)](https://kiwiirc.com/client/irc.ringoflightning.net/?nick=86box|?#86Box)
-
-[![디스코드 서버 방문](https://discordapp.com/api/guilds/262614059009048590/embed.png)](https://discord.gg/QXK9XTv)
 
 라이선싱
 ---------
